@@ -2,11 +2,11 @@
 # Christian Manalo Mañibo
 # 13/02/2018
 
-dividendo=input("Escriba el dividiendo: ")
+dividendo=input("Escriba el dividendo: ")
 divisor=input("Escriba el divisor: ")
 
-cociente= dividiendo // divisor
-resto= dividiendo % divisor 
+cociente= dividendo // divisor
+resto= dividendo % divisor 
 
 if divisor == 0:
     print "No se puede dividir entre 0."
