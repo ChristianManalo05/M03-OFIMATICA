@@ -5,7 +5,7 @@
 dividendo=input("Escriba el dividendo: ")
 divisor=input("Escriba el divisor: ")
 
-cociente= dividendo // divisor
+cociente= dividendo / divisor
 resto= dividendo % divisor 
 
 if divisor == 0:
