@@ -2,12 +2,12 @@
 # Christian Manalo Mañibo
 # 12/02/2018
 
-dividiendo=input("Escriba el dividiendo: ")
+dividendo=input("Escriba el dividiendo: ")
 
 divisor=input("Escriba el divisor: ")
 
-cociente= dividiendo / divisor
-resto= dividiendo % divisor 
+cociente= dividendo / divisor
+resto= dividendo % divisor 
 
 
 if resto == 0:
