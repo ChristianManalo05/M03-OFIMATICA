@@ -16,10 +16,10 @@ if (num1 > num2):
 
 # Si no lo es
 elif (num1 < num2):
-        print "Número 2 es mas grande que Número 1  "
+    print "Número 2 es mas grande que Número 1  "
 
     # Si son iguales
-    else:
-        print "Número 1 y Número 2 son iguales "
+else:
+    print "Número 1 y Número 2 son iguales "
         
 #FIN del código
