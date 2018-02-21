@@ -3,6 +3,7 @@
 # 21/02/2018
 
 
+# Variables
 cajon1="movil"
 cajon2="bocadillo"
 cajon3="boli"
