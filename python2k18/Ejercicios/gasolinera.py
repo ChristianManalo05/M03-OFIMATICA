@@ -44,7 +44,7 @@ if tabla.lower ()=="si":
 ########################################################################
 """
     tipo_gasolina=input("Que tipo de gasolina quiere? Elija un numero: ")
-    if tipo_gasolina<=0 or tipo_gasolina>7:
+    if tipo_gasolina<=0 or tipo_gasolina>=7:
         print "Este producto no existe. Que tenga un buen dia."
         
     elif tipo_gasolina==1:
