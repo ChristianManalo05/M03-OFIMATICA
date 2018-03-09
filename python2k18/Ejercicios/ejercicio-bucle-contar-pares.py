@@ -8,7 +8,7 @@ os.system("clear")
 
 print"""
 
------BUCLE CONTAR-----
+-----BUCLE CONTAR PARES-----
 
 """
 
