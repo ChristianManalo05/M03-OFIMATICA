@@ -14,7 +14,7 @@ print"""
 
 # Inicializaciones
 salir = "N"
-num=1
+num=0
 limit=input("Hasta cuanto quieres contar?: ")
 
 if (num<limit) :
