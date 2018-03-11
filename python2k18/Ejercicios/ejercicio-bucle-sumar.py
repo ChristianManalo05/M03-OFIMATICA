@@ -1,22 +1,32 @@
 # coding: utf8
 # Christian Mañibo
-# 09/03/2018
+# 11/03/2018
 
+import os
+os.system("clear")
+
+print"""
+
+###### BUCLE SUMAR ######
+
+"""
 # Inicializaciones
 salir = "N"
 num = 1
-resultado = num 
+resultado = 0
 while ( salir=="N" ):
     # Hago cosas
-    print num
+    print "        " ,	num
 
     # Incremento
+    resultado = resultado + num
     num = num + 1
-    resultado = num + resultado
+    
     # Activo indicador de salida si toca
-    if ( num > resultado ): # Condición de salida
+    if ( num > 5): # Condición de salida
         salir = "S"
         print """
-             RESULTADO
-        --------------------
-        """   , resultado
+-------------------------------    
+       RESULTADO = """ , resultado , """
+-------------------------------"""
+         
