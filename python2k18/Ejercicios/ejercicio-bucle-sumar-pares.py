@@ -1,7 +1,7 @@
 # coding: utf8
 # Christian Mañibo
 # 13/03/2018
-# Corrección/Mejora
+
 
 import os
 os.system("clear")
