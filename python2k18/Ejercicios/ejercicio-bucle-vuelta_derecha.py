@@ -6,6 +6,7 @@
 import os
 os.system ("clear")
 
+print "-EJERCICIO BUCLE : VUELTA DERECHA-"
 # Variables
 salir="N"
 vuelta=1
