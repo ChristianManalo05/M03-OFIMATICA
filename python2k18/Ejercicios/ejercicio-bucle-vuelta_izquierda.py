@@ -6,7 +6,7 @@
 import os
 os.system ("clear")
 
-print "EJERCICIO BULCLE: VUELTA IZQUIERDA"
+print "EJERCICIO BUCLE: VUELTA IZQUIERDA"
 # Variables
 salir="N"
 giro=raw_input("Donde desea girar, derecha o izquierda? D/I: ")
