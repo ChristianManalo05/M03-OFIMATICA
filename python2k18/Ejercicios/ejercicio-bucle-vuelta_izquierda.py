@@ -6,9 +6,10 @@
 import os
 os.system ("clear")
 
+print "EJERCICIO BULCLE: VUELTA IZQUIERDA"
 # Variables
 salir="N"
-giro=input("Donde desea girar, derecha o izquierda? D/I: ")
+giro=raw_input("Donde desea girar, derecha o izquierda? D/I: ")
 vuelta=1
 
 while ( salir=="N" ):
@@ -17,24 +18,24 @@ while ( salir=="N" ):
         #Si es derecha
     if giro.upper()=="D":
         if vuelta%8==1 or vuelta%8==2 :
-                print (vuelta ,"-> arriba")
+                print vuelta ,"-> arriba"
         elif vuelta%8==3 or vuelta%8==4 :
-                print (vuelta , "-> derecha")
+                print vuelta , "-> derecha"
         elif vuelta%8==5 or vuelta%8==6 :
-                print (vuelta , "-> abajo")
+                print vuelta , "-> abajo"
         elif vuelta%8==7 or vuelta%8==0 :
-                print (vuelta ,"-> izquierda")
+                print vuelta ,"-> izquierda"
 
         #Si es izquierda
     if giro.upper()=="I":
         if vuelta%8==1 or vuelta%8==2 :
-            print (vuelta ,"-> arriba")
+            print vuelta ,"-> arriba"
         elif vuelta%8==7 or vuelta%8==0 :
-            print (vuelta , "-> derecha")
+            print vuelta , "-> derecha"
         elif vuelta%8==5 or vuelta%8==6 :
-            print (vuelta , "-> abajo")
+            print vuelta , "-> abajo"
         elif vuelta%8==3 or vuelta%8==4 :
-            print (vuelta ,"-> izquierda")
+            print vuelta ,"-> izquierda"
 
     # Incremento
     vuelta = vuelta + 1 
@@ -43,4 +44,4 @@ while ( salir=="N" ):
     if (vuelta >8): # Condición de salida
 
         salir = "S"
-print ("FIN DE LAS VUELTAS")
+print "FIN DE LAS VUELTAS"
