@@ -7,19 +7,19 @@ import os
 os.system ("clear")
 
 # Variables
-salir ="N"
+salir="N"
 vuelta=1
 
 while ( salir=="N" ):
 	
 	# Hago cosas
-	if suma%8==1 or suma%8==2 :
+	if vuelta%8==1 or vuelta%8==2 :
 		print (vuelta ,"-> arriba")
-	elif suma%8==3 or suma%8==4 :
+	elif vuelta%8==3 or vuelta%8==4 :
 		print (vuelta , "-> derecha")
-	elif suma%8==5 or suma%8==6 :
+	elif vuelta%8==5 or vuelta%8==6 :
 		print (vuelta , "-> abajo")
-	elif suma%8==7 or suma%8==0 :
+	elif vuelta%8==7 or vuelta%8==0 :
 		print (vuelta ,"-> izquierda")
 
 	# Incremento
