@@ -6,7 +6,7 @@
 import os
 os.system("clear")
 
-print "###### BUCLE SUMAR 2 ######"
+print "###### BUCLE SUMAR 4 ######"
 
 # Inicializaciones
 salir = "N"
